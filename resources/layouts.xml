@@ -1,0 +1,11 @@
+<layouts>
+  <layout id="DataField" background="Graphics.COLOR_BLACK">
+    <label x="110" y="120" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="data field" />
+    <label id="counter" x="130" y="120" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="counter" />
+  </layout>
+
+  <layout id="Widget" background="Graphics.COLOR_BLACK">
+    <label x="110" y="120" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="widget" />
+    <label id="counter" x="130" y="120" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="counter" />
+  </layout>
+</layouts>

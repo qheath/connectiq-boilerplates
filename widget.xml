@@ -1,0 +1,11 @@
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+  <iq:application entry="Widget.App" id="02020202020202020202020202020202" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.0.0" name="@Strings.AppName" type="widget" version="0.0.1">
+    <iq:products>
+      <iq:product id="fr935"/>
+    </iq:products>
+    <iq:permissions/>
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+  </iq:application>
+</iq:manifest>

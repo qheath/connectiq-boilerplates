@@ -1,0 +1,9 @@
+--- monkeydo 	2019-07-18 13:07:16.630908514 +0200
++++ monkeydo	2019-07-18 13:07:20.278946727 +0200
+@@ -38,5 +38,5 @@
+     fi
+ 
+     # Push the executable to the simulator
+-    java -classpath "$MB_HOME"/monkeybrains.jar com.garmin.monkeybrains.monkeydodeux.MonkeyDoDeux -f "$PRG_PATH" -d $DEVICE_ID -s "$MB_HOME"/shell $TEST_FLAG $TEST_NAME
++    /usr/lib/jvm/java-9-openjdk-amd64/bin/java --add-modules java.xml.bind -classpath "$MB_HOME"/monkeybrains.jar com.garmin.monkeybrains.monkeydodeux.MonkeyDoDeux -f "$PRG_PATH" -d $DEVICE_ID -s "$MB_HOME"/shell $TEST_FLAG $TEST_NAME
+ fi
